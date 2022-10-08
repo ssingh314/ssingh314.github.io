@@ -1,12 +1,36 @@
 h1 {
     font-family: 'SmallCaps', sans-serif;
-    font-size: 2em;
+    font-size: 4em;
     font-weight: bold;
     text-align: center;
+    border: 2px;
+    border-style: solid;
+    background-color: brown;
 }
 p {
     text-align: center;
 }
-a {
+
+#link {
     text-align: center;
+}
+#input {
+    text-align: center;
+    margin-top: 25px;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+html {
+    background: url("../assets/theme.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+#footer {
+    position:fixed;
+    bottom: 5;
+    width: 98.5%;
+    border: 2px;
+    border-style: solid;
+    background-color: brown;
 }
